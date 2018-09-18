@@ -31,7 +31,8 @@ jobs:
       before_deploy:
         - echo "Deploying $RELEASE_TAG to review"
       deploy:
-        provider: cloudfoundry
+        p
+
         api: $CF_API_URL
         username: $CF_USERNAME
         password: $CF_PASSWORD
