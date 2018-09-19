@@ -18,6 +18,5 @@ public class CustomInfoContributor implements InfoContributor {
         Map<String,Object> map = new HashMap<>();
         map.put("buildInfo",buildInfo);
 
-        Info info = builder.build();
     }
 }
